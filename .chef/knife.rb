@@ -5,5 +5,5 @@ log_level                :info
 log_location             STDOUT
 node_name                "paralda"
 client_key               "#{current_dir}/paralda.pem"
-chef_server_url          "https://ip-172-31-94-78.ec2.internal/organizations/test"
+chef_server_url          "https://chef.willbennett.test/organization/test/"
 cookbook_path            ["#{current_dir}/../cookbooks"]
