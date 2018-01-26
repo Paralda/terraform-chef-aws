@@ -111,7 +111,7 @@ run_list = [ "webserver", "webserver::php", "webserver::site1" ]
 connection {
 host = "${self.public_ip}"    
 user = "centos"
-private_key = "${file("C:\\Users\\wbennett\\chef.pem")}"
+private_key = "${file("C:\\Users\\willb\\chef.pem")}"
 agent = false
 }
 }
@@ -137,7 +137,7 @@ run_list = [ "webserver", "webserver::php", "webserver::site2" ]
 connection {
 host = "${self.public_ip}"   
 user = "centos"
-private_key = "${file("C:\\Users\\wbennett\\chef.pem")}"
+private_key = "${file("C:\\Users\\willb\\chef.pem")}"
 agent = false
 }
 }
